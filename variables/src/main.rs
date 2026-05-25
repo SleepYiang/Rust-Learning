@@ -25,7 +25,12 @@ fn main() {
     let spaces = spaces.len();
 
     //*****************************数据类型*****************************
+    let tup: (i32, f64, u8) = (500, 6.4, 1);//元组
 
+    let x: (i32, f64, u8) = (500, 6.4, 1);//类似数组下标给值
+    let five_hundred = x.0;
+    let six_point_four = x.1;
+    let one = x.2;
 
 
 }
