@@ -17,9 +17,8 @@ fn main() {
         let v = v * 2;
         println!("The value of v in the inner scope is: {}", v);
     }
-
     println!("The value of v is: {}", v);
-
+    
     //遮蔽可以同名不同类型
     let spaces = "   ";
     let spaces = spaces.len();
@@ -31,6 +30,17 @@ fn main() {
     let five_hundred = x.0;
     let six_point_four = x.1;
     let one = x.2;
+
+    //数组
+    let a = [1, 2, 3, 4, 5];
+    let months = ["January", "February", "March", "April", "May", "June", "July",
+              "August", "September", "October", "November", "December"];
+
+    //i32 是每个元素的类型。分号之后，数字 5 表明该数组包含 5 个元素
+    let a1: [i32; 5] = [1, 2, 3, 4, 5];
+    //数组下标访问
+    let first = a[0];
+    let second = a[1];
 
 
 }
