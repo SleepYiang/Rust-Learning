@@ -42,5 +42,9 @@ fn main() {
     let first = a[0];
     let second = a[1];
 
-    //更新
+    //更新定义函数
+fn another_function() {
+    println!("Another function.");
+}
+
 }
