@@ -68,7 +68,7 @@ fn main1() {
         email: String::from("another@example.com"),
         ..user1
     };
-
     
 }
+
 
