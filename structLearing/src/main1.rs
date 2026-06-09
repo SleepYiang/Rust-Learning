@@ -34,9 +34,7 @@ fn main()
     };
     println!("the area of the rectangle is {}",area(&rect2));
 }
-string::from()
 
-let mut items=HashSet::from(["冰","雪"]);
 
 
 fn area(rectangle:&Rangle)->u32
@@ -64,6 +62,6 @@ let s=String::from("hello world");
 s.push_str("!!!");
 println!("{}",s);
 
-let s=string::from("hello world"); 
+let s=String::from("hello world"); 
 let s1=s.clone();
-println!("s={},s1={}",s,s1);   
+println!("s={},s1={}",s,s1);
