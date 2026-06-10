@@ -12,4 +12,5 @@ fn first_word(s: &String) -> usize {
 
 fn main() {
     first_word(s:"test")；
+    let test=01;
 }
