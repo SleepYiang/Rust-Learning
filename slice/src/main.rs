@@ -10,7 +10,7 @@ fn first_word(s: &String) -> usize {
     s.len()
 }
 
-fn main() {
-    first_word(s:"test")；
-    let test=01;
-}
+// fn main() {
+//     first_word(s:"test")；
+//     let test=01;
+// }

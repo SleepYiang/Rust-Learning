@@ -34,7 +34,7 @@ fn build_user(email: String, username: String) -> User {
     }
 }
 
-struct User {
+struct User1 {
     active: bool,
     username: String,
     email: String,
@@ -64,10 +64,10 @@ fn main1() {
         sign_in_count: user1.sign_in_count,
     };
     //使用结构体更新语法创建新实例..省略后面内容但是效果同上
-    let user3 = User {
-        email: String::from("another@example.com"),
-        ..user1
-    };
+    // let user3 = User {
+    //     email: String::from("another@example.com"),
+    //     ..user1
+    // };
     
 }
 
