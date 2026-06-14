@@ -57,6 +57,19 @@ fn another_function() {
     } else {
         println!("number is not divisible by 4, 3, or 2");
     }
-//test
 
 }
+
+//rust中的数据溢出
+fn main2()
+{
+    let x:u8=255;
+    let b=x.wrapping_add(20);
+    assert_eq!(100u8.saturating_add(1), 101);//调用饱和加法 //输出101
+    assert_eq!(u8::MAX.saturating_add(127), u8::MAX);//调用饱和加法 输出255,限制最大值
+    println!("wrapping_add {}",b);//19  255+20=275-256=19
+}
+
+//浮点数精度问题，精度根据选择的位数会发生变化 例如f32 f64
+
+//Nan 未定义的数学行为例如-42的算数平方根
