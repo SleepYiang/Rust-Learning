@@ -28,3 +28,7 @@ fn denger() ->String{
     let s = String::from("hello");
     s
 }
+
+//所有权   性能上栈的性能高于堆的性能
+//深拷贝  浅拷贝  值传递 
+//返回值的拷贝方式是移动，string 不能能copy 但是返回不能深拷贝
