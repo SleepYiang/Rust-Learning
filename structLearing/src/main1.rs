@@ -65,3 +65,14 @@ println!("{}",s);
 let s=String::from("hello world"); 
 let s1=s.clone();
 println!("s={},s1={}",s,s1);
+
+
+
+
+
+//string类型
+//切片访问固定下摆拿下的字符串
+let s = String::from("hello world");
+
+let hello = &s[0..5];  //左闭右开区间实际则为【0-4】从0开始可以替换为【..5】
+let world = &s[6..11]; //注意：一个中文显示需三个空间所以【0..3】并不能显示完整一个中国汉字
