@@ -19,6 +19,7 @@ fn main1()
 
 }
 //学习
+//学习进度异常处理同步
 
 fn main() -> Result<(), Box<dyn Error>> {
     // 一行完成写入
