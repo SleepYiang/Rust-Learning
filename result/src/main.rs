@@ -18,6 +18,7 @@ fn main1()
     
 
 }
+//学习
 
 fn main() -> Result<(), Box<dyn Error>> {
     // 一行完成写入
