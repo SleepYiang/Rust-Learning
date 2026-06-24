@@ -6,11 +6,4 @@ fn main() {
     assert_eq!(3, sum(2));
 }
 
-if(a>b){
-    max=a；
-}else{
-    b
-}
-
-
 //代码更新
